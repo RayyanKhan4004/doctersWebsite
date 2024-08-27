@@ -1,5 +1,5 @@
 import React from 'react'
-import heroBotox from '../assits/BotoxHero.png'
+import heroBotox from '../assets/BotoxHero.png'
 function BotoxHero() {
   return (
     <div>         

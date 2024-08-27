@@ -1,5 +1,5 @@
 import React from 'react'
-import OrthoHeroImg from '../assits/OrthoHero.png'
+import OrthoHeroImg from '../assets/OrthoHero.png'
 function OrthoHero() {
   return (
     <div className='flex justify-center items-center md:w-[100%] mt-14 ' >

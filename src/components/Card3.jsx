@@ -1,34 +1,4 @@
-// import React from 'react'
 
-// function Card3() {
-//   return (
-//     <div class="max-w-screen-xl mx-auto p-16">
-
-//     <div class="sm:grid lg:grid-cols-3 sm:grid-cols-2 gap-10">
-//         <div
-//             class="hover:bg-gray-900 hover:text-white transition duration-300 max-w-sm rounded overflow-hidden shadow-lg">
-//             <div class="py-4 px-8">
-//                 <img src="https://tailwindcss.com/img/jonathan.jpg" class="rounded-full h-12 w-12 mb-4"/>
-//                 <a href="#">
-//                     <h4 class="text-lg mb-3 font-semibold">How to be effective at working remotely?</h4>
-//                 </a>
-//                 <p class="mb-2 text-sm text-gray-600">Lorem Ipsum is simply dummy text of the printing and typesetting
-//                     industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s</p>
-
-             
-
-                
-//                 <span class="text-xs">ARTICLE</span>
-//                 &nbsp;<span class="text-xs text-gray-500">PROCESS</span>
-//             </div>
-//         </div>
-
-//        </div>
-//        </div>
-//   )
-// }
-
-// export default Card3
 import React from 'react';
 
 const cardData = [
@@ -37,7 +7,7 @@ const cardData = [
     img: 'https://tailwindcss.com/img/jonathan.jpg',
     title: 'How to be effective at working remotely?',
     description:
-      'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s',
+      'Lorem Ipsum is simply dummy text of the printing and typesetting industry. ',
     category: 'ARTICLE',
     subcategory: 'PROCESS',
   },
@@ -93,21 +63,21 @@ function Card3() {
      <div className='w-[100%] items-center justify-center flex' >
 
     
-      <div className="grid lg:grid-cols-3 gap-4 py-6 mt-4 pt-2  sm:grid-cols-2  justify-items-center ">
+      <div className="grid lg:grid-cols-3 gap-7   sm:grid-cols-2  justify-items-center ">
         {cardData.map((card) => (
           <div
             key={card.id}
-            className="  h-96 w-card  transition duration-300  max-w-sm rounded-lg  overflow-hidden bg-white  shadow-lg"
+            className="  h-[412px] w-card relative transition duration-300  max-w-sm rounded-[24px]   overflow-hidden bg-white  shadow-lg"
           >
             <div className="py-8 m-4 px-4">
-              <img src={card.img} className="rounded-full h-[80px] w-[80px] mb-4" alt={card.title} />
+              <img src={card.img} className="rounded-full h-[80px] w-[80px] mb-8" alt={card.title} />
               <a href="#">
-                <h4 className="text-xl mb-3 font-bold leading-relaxed">{card.title}</h4>
+                <h4 className="text-[22px] leading-[22px] mb-3 font-bold ">{card.title}</h4>
               </a>
-              <p className="mb-2 text-sm text-gray-600">{card.description}</p>
+              <p className="mb-2  leading-8  text-gray-600">{card.description}</p>
 
-              <div className="flex mt-4 flex-col text-xs ">
-                <span className="text-[#007E85] text-base  ">{card.category}</span>
+              <div className="flex  flex-col absolute bottom-[50px]  ">
+                <span className="text-[#007E85] text-lg  leading-[18px]  ">{card.category}</span>
                 
                 <span className="text-gray-500 m-0">{card.subcategory}</span>
               </div>

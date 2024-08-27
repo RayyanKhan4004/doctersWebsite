@@ -1,6 +1,6 @@
 
-import Star from '../assits/star.png'
-import Star2 from '../assits/star2.png'
+import Star from '../assets/star.png'
+import Star2 from '../assets/star2.png'
 function RatingCard({ avatar, name, title, review, rating }) {
     return (
       <div className="min-w-[327px]  min-h-[244px] bg-white relative text-black">

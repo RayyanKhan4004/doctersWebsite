@@ -1,5 +1,5 @@
 import React from 'react'
-import { BotoxCard } from '../Data/AllI imp data'
+import { BotoxCard } from '../data/allImpData'
 function Botoxcards() {
   return (
     

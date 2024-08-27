@@ -1,5 +1,5 @@
 import React from 'react'
-import BotoxBeforeAndAfterImg from '../assits/Botox after and before.png'
+import BotoxBeforeAndAfterImg from '../assets/Botox after and before.png'
 function BotoxBeforeAndAfterCompo() {
   return (
     <div className='' >

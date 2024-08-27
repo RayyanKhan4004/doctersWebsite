@@ -1,5 +1,5 @@
 import React from 'react'
-import Botox2 from '../assits/Botox2.png'
+import Botox2 from '../assets/Botox2.png'
 function BotoxOvrlappingImgCompo() {
   return (
     <div>

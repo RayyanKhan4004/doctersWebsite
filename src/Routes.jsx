@@ -1,11 +1,11 @@
 import React from 'react'
-import App from './ALLRouts/App';
+import App from './routes/App';
 import {
     createBrowserRouter,
     
   } from "react-router-dom";
-import OrthoRoute from './ALLRouts/OrthoRoute';
-import Botox from './ALLRouts/Botox';
+import OrthoRoute from './routes/OrthoRoute';
+import Botox from './routes/Botox';
   const router = createBrowserRouter([
     {
       path: "/",
