@@ -11,31 +11,34 @@ import Footer from '../components/footer'
 
 function App() {
   return (
-    <div  className='max-h-screen leading-relaxed items-center  '>
+    <div  className='max-h-screen  leading-relaxed items-center  '>
+      <div className='p-6'>
+
+
+    
       <Navbar/>
       <HomeCoponent/>
-      
-      <Stats/>
+            <Stats/>
       <Hero/>
-      <div className='text-center mt-[150px] ' > <h2 className='text-2xl text-[#007E85] font-bold' >Services we provide </h2>
-      <p className='mb-14  '>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia aliquid at rem quibusdam! Quis distinctio iure corporis iste voluptates, voluptas nemo ex eaque? </p>
+      <div className='text-center mt-[150px] ' > <h2 className='text-3xl text-[#007E85] font-bold' >Services we provide </h2>
+      <p className='mb-14 text-[#555555] text-lg leading-[25px] '>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia aliquid at rem quibusdam! Quis distinctio iure corporis iste voluptates, voluptas nemo ex eaque? </p>
       </div>
       <Card1/>
       <div className='text-center mt-[112px]' > <h2 className='text-4xl leading-[46px] font-sans text-[#007E85] font-bold' >Meet our previous clints </h2>
       <div className='flex justify-center items-center ' >
-      <p className='w-[613px] mt-[16px] mb-[60px]' >Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia aliquid at rem quibusdam! Quis distinctio iure corporis iste voluptates, voluptas nemo ex eaque? </p>
+      <p className='w-[613px] mt-[16px] text-[#555555] text-lg leading-[25px] mb-[60px]' >Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia aliquid at rem quibusdam! Quis distinctio iure corporis iste voluptates, voluptas nemo ex eaque? </p>
       </div>
 
       </div>
       <Card2/>
       <div className='text-center  my-20' > <h2 className='text-4xl leading-[46px] mb-[16px] text-[#007E85] font-bold' >Testimonial</h2>
       <div className='flex flex-col  items-center'>
-      <p className='md:w-[613px] text-lg leading-[30px] text-[#555555]'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia aliquid at rem quibusdam! Quis distinctio iure corporis iste voluptates, voluptas nemo ex eaque? </p>
+      <p className='md:w-[613px] text-lg leading-[25px] text-[#555555]'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia aliquid at rem quibusdam! Quis distinctio iure corporis iste voluptates, voluptas nemo ex eaque? </p>
 
       </div>
       </div>
       <Card3/>
-      <SearchBar/>
+      <SearchBar/>  </div>
       <Footer/>
     </div>
   )

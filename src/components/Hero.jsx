@@ -2,8 +2,8 @@ import React from 'react'
 import heroimg from '../assets/image placeholder.png'
 function hero() {
   return (
-    <div className='flex items-center justify-center' ><div class="relative flex flex-col items-center lg:min-w-[1200px] md:max-w-[1400px] max-lg:px-4 mx-12  md:flex-row sm:px-6 ">
-    <div class="flex items-center py-5 md:w-1/2 md:pb-20 md:pt-10 md:pr-10">
+    <div className='flex items-center justify-center' ><div class="relative flex flex-col items-center xl:min-w-[1200px] md:max-w-[1400px]    lg:flex-row sm:px-6 ">
+    <div class="flex items-center py-5 md:w-1/2 md:pb-20 xl:pt-10 xl:pr-10">
         <div class="text-left">
             <h2
                 class="text-4xl font-extrabold leading-10 tracking-tight text-[#007E85] sm:text-5xl sm:leading-none md:text-5xl">
@@ -19,7 +19,7 @@ function hero() {
             </div>
         </div>
     </div>
-    <div class="flex items-center  md:w-1/2  md:pt-10 md:pl-10">
+    <div class="flex items-center  lg:w-1/2  lg:pt-10 lg:pl-10">
         <div class="relative w-full p-3 rounded  ">
             <div class="rounded-lg bg-white text-black w-full">
                 <img src={heroimg} />

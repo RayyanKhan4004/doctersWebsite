@@ -49,3 +49,7 @@ html {
     src: local(),
      url()  ;
 } */
+
+.nav{
+  padding: 0%;
+}

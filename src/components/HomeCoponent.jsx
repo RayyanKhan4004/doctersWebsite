@@ -52,10 +52,10 @@ function HomeCoponent() {
               <Aftar />
             </div>
             <img
-              className="relative -top-10"
+              className="relative sm:min-w-[526px] sm:min-h-[626px]  sm:h-[526px] sm:w-[626px] -top-10"
               src={doctor}
               alt=""
-              style={{ width: "526px", height: "626px" }}
+              
             />
             <div
               style={{ borderRadius: 10, alignItems: "center" }}
@@ -70,9 +70,11 @@ function HomeCoponent() {
             </div>
           </div>
         </div>
+
+        {/* 2ndcompo */}
       </div>
       <div className="flex  flex-col mt-20  justify-center items-center">
-        <div className="flex lg:flex-row-reverse flex-col-reverse w-[100%] max-w-[1380px] items-center justify-between  main-box gap-[2rem]">
+        <div className="flex lg:flex-row-reverse flex-col-reverse w-[100%] max-w-[1380px] items-center justify-between  main-box,m gap-[2rem]">
           <div className=" max-w-[657px]">
             <h3 className="font font-semibold size40">
               Providing Quality{" "}
@@ -117,10 +119,10 @@ function HomeCoponent() {
               <Aftar />
             </div>
             <img
-              className="relative -top-10"
+              className="relative sm:min-w-[526px] sm:min-h-[626px]  sm:h-[526px] sm:w-[626px] -top-10"
               src={doctor}
               alt=""
-              style={{ width: "526px", height: "626px" }}
+             
             />
             <div
               style={{ borderRadius: 10, alignItems: "center" }}

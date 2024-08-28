@@ -6,7 +6,7 @@ function Footer() {
   return (
     <div>
       <div className="bg-gray-100">
-        <div className="pt-20 px-4 sm:px-6 bg-[#007E85] text-white justify-items-center grid md:grid-cols-5">
+        <div className="pt-20 px-4 sm:px-6 bg-[#007E85] text-center text-white justify-items-center grid md:grid-cols-5">
           <div className="  mb-4 md:mb-0 lg:mr-16">
            
             <span className="text-3xl mt-2 flex justify-center items-center font-bold">  <img className="-bottom-5 aspect-square h-14 w-14" src={Logo} alt="daf" /> Healthcare</span>

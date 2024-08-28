@@ -11,7 +11,7 @@ function Card2() {
   <div className='w-[100%] items-center justify-center flex' >
 
   
-    <div className="grid grid-cols-1 gap-7 gap-y-2 justify-items-center mt-5  md:grid-cols-2 lg:grid-cols-3 ">
+    <div className="grid grid-cols-1 gap-7 gap-y-2 justify-items-center mt-5  md:grid-cols-2  xl:grid-cols-3 ">
       {AllImpinfo2.map((info) => (
         <div key={info.id} className="max-w-sm   relative bg-white border w-card h-card border-gray-200 rounded-[28px]  shadow ">
           {/* Profile Image */}
@@ -41,22 +41,22 @@ function Card2() {
 
           {/* Social Links */}
           <div className="flex mt-4 w-[192px] h-[36px] absolute left-1/2  gap-4 -translate-x-1/2 bottom-7 justify-center ">
-            <span className="w-9 m-1 h-9">
+            <span className="w-9m m- h-9m">
               <a href="#0">
                 <img src={Facebook} alt="" />
               </a>
             </span>
-            <span className="w-9 h-9 m-1">
+            <span className="w-9m h-9m m-">
               <a href="#0">
                 <img src={Twitter} alt="" />
               </a>
             </span>
-            <span className="w-9 h-9 m-1">
+            <span className="w-9m h-9m m-">
               <a href="#0">
                 <img src={Instagram} alt="" />
               </a>
             </span>
-            <span className="w-9 h-9 m-1">
+            <span className="w-9m h-9m m-">
               <a href="#0">
                 <img src={Linkedin} alt="" />
               </a>

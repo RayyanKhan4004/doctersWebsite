@@ -63,7 +63,7 @@ function Card3() {
      <div className='w-[100%] items-center justify-center flex' >
 
     
-      <div className="grid lg:grid-cols-3 gap-7   sm:grid-cols-2  justify-items-center ">
+      <div className="grid xl:grid-cols-3 gap-7   md:grid-cols-2  justify-items-center ">
         {cardData.map((card) => (
           <div
             key={card.id}
@@ -72,9 +72,9 @@ function Card3() {
             <div className="py-8 m-4 px-4">
               <img src={card.img} className="rounded-full h-[80px] w-[80px] mb-8" alt={card.title} />
               <a href="#">
-                <h4 className="text-[22px] leading-[22px] mb-3 font-bold ">{card.title}</h4>
+                <h4 className="text-[22px] leading-[22px] mb-3 font-semibold ">{card.title}</h4>
               </a>
-              <p className="mb-2  leading-8  text-gray-600">{card.description}</p>
+              <p className="mb-2  leading-[1.5rem]  text-gray-600">{card.description}</p>
 
               <div className="flex  flex-col absolute bottom-[50px]  ">
                 <span className="text-[#007E85] text-lg  leading-[18px]  ">{card.category}</span>

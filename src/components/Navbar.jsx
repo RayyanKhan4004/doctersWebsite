@@ -57,7 +57,7 @@ function Navbar() {
         </div>
         <span
           onClick={() => setShowMenu((showMenu) => !showMenu)}
-          className=" lg:hidden   max-lg:absolute right-0 z-40 bg-gradient-to-r from-[#007E85] to-[#6EAB36] text-white cursor-pointer p-2 rounded-lg"
+          className=" lg:hidden max-lg:absolute right-[24px] z-40 bg-gradient-to-r from-[#007E85] to-[#6EAB36] text-white cursor-pointer p-2 rounded-lg "
         >
           Menu
         </span>
@@ -68,33 +68,3 @@ function Navbar() {
 
 export default Navbar;
 
-// import React from 'react'
-// import Logo from '../assits/Logo.png';
-// import { useState } from 'react';
-// function Navbar() {
-
-//   return (
-//     <nav className='flex  h-12   flex-row justify-evenly max-w-[1200px] ' >
-//      <div className='flex flex-row' >
-//        <div className='' >
-//       <img src={Logo} alt="logo" />
-//       </div>
-//       <div className='flex flex-row'>
-//       <div className='text-[#007E85] mt-2 tracking-wider text-3xl font-bold'>Health</div>
-//                <div className='text-green-600  mt-2 tracking-wider text-3xl font-bold'>care</div>
-//       </div>
-//       </div>
-//      <ul className='flex float-right gap-7' >
-//       <li>Home</li>
-//       <li>Orthotist</li>
-//       <li>Botox</li>
-//       <li>Equipments</li>
-//       <li>Locations</li>
-//       <li>HomeServices</li>
-
-//      </ul>
-//     </nav>
-//   )
-// }
-
-// export default Navbar
