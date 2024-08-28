@@ -19,7 +19,7 @@ colors:{
 fontFamily :{
 latoN : ['LatoN'],
 latoB : ['LatoB'],
-// laton : ['LatoN']
+// DMSans : ['DMSans']
 }
     },
   },
