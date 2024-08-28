@@ -10,9 +10,12 @@ function RatingCard({ avatar, name, title, review, rating }) {
   {Array(Math.floor(rating)).fill(0).map(() => (
     <img src={Star} alt="star" />
   ))}
-  {rating % 1 !== 0 && (
-    <img src={Star2} alt="partial star" />
-  )}
+  
+  {
+    Array(5 - Math.floor(rating)).fill(0).map(() => (
+      <img src={Star2} alt="empty star" />
+      ))}
+  
 </div>
           <div className="flex items-center">
             {/* Your star icons here */}
