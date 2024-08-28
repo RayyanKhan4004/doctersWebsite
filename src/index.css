@@ -44,11 +44,11 @@ html {
     font-family: "LT";
     src: url(./fonts/Lexend_Tera/LexendTera-VariableFont_wght.ttf) format("truetype");
   }
-/* @font-face {
-    font-family: 'Poopins';
-    src: local(),
-     url()  ;
-} */
+@font-face {
+    font-family: 'DMSans';
+    src: 
+     url(./fonts/dmSans/DMSans-VariableFont_opsz\,wght.ttf)  ;
+}
 
 .nav{
   padding: 0%;
