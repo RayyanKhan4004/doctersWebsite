@@ -13,13 +13,13 @@ function OrthoRoute() {
 
       
         <Navbar />
-    <div className="h-[733px] ortho1 flex items-center mdh-1/2">
-      <div className='ml-7'><h2 className='text-5xl text-white font-bold' >
+    <div className="h-[733px] ortho1  flex items-center mdh-1/2">
+      <div className='ml-7'><h2 className='text-5xl font-latoB  text-white font-extrabold' >
       Bringing individualized  <br /><span className='text-[#007E85] ' >Healthcare</span>  
         </h2> 
         <br />
-        <button className='bg-[#007E85] p-2 px-4 text-xl text-white rounded-lg border-2 border-[#007E85] ' >Appointments</button> 
-        <button className='bg-transparent text-white text-xl border-2 sm:ml-3 p-2 px-7 rounded-lg' >Learn More</button>
+        <button className='bg-[#007E85]  h-[51px]  w-[210px] text-[20px]  leading-6  tracking-tighter  text-white rounded-lg border-2 border-[#007E85] font-LexendTara ' >  Appointments</button> 
+        <button className='bg-transparent text-white text-xl  sm:ml-3 h-[51px]  w-[210px] text-[20px]  leading-6  tracking-tighter   border-2 rounded-lg font-LexendTara ' >Learn More</button>
         </div>
     </div>   
     {/* p-6 */}
@@ -36,7 +36,7 @@ function OrthoRoute() {
     <p className='md:w-[80ch] text-center' >Problems trying to resolve the conflict between the two major realms of Classical physics: Newtonian mechanics</p></div>
     </div>
     <div className='flex justify-center items-center' >
-    <div className="grid grid-cols-1 max-w-[1000px] md:grid-cols-2 lg:grid-cols-3 mt-7 gap-x-9 gap-y-12 ">
+    <div className="grid xl:grid-cols-3 gap-7    justify-items-center  max-w-[1000px] md:grid-cols-2 lg:grid-cols-3 mt-7 gap-x-9 gap-y-12 ">
       {ratingData.map((data) => (
         <RatingCard
           key={data.name}
