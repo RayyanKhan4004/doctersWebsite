@@ -7,7 +7,7 @@ function OrthoFindDoctor() {
                   <div className='  ' >
 
                     <div className='w-[237px] h-[46px] ' >
-                      <h3 className='font-sans text-3xl mt-6 text-center font-semibold' >Find A Doctor</h3>
+                      <h3 className='font-sans text-3xl mt-6 font-DMSans font-bold text-center    leading-[46px]' >Find A Doctor</h3>
 
                     </div>
                          <div className='flex max-lg:flex-col  gap-14 mt-6 ' >
