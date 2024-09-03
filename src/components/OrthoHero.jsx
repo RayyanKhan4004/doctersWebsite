@@ -8,10 +8,11 @@ function OrthoHero() {
                     <div  className=' max-lg:text-center  max-lg:justify-center font-latoB  text-2xl   ' >
                     Bringing individualized <span className='text-theme1'> Healthcare </span> <span className='text-green-500' >Nationwide </span>
                     <div className='max-lg:w-[100%] max-lg:flex max-lg:flex-col max-lg:items-center max-lg:justify-center ' >
-                    <p className='w-1/2 text-sm  text-center' >
+                    <p className='w-1/2 text-sm  text-[#000000B2]
+' >
                     At our hospital, we are dedicated to providing exceptional medical care to our patients and their families. Our experienced team of medical professionals, cutting-edge technology, and compassionate approach make us a leader in the healthcare industry
                     </p>
-                    <button class="bg-[#007E85] max-lg:mb-5  text-white rounded-sm p-1 mt-6 px-10">Appointment</button>
+                    <button className="bg-[#007E85] max-lg:mb-5  text-white rounded-sm p-1 mt-6 px-10">Appointment</button>
                     </div>
                     </div>
                  </div>

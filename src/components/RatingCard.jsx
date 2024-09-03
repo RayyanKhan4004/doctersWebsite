@@ -7,13 +7,13 @@ function RatingCard({ avatar, name, title, review, rating }) {
         <div className="flex flex-col justify-between rounded-md  shadow-sm m  ">
   
         <div className='flex p-4 pl-5   '>
-  {Array(Math.floor(rating)).fill(0).map(() => (
-    <img src={Star} alt="star" />
+  {Array(Math.floor(rating)).fill(0).map((curr ,i) => (
+    <img src={Star} alt="star" key={i}/>
   ))}
   
   {
-    Array(5 - Math.floor(rating)).fill(0).map(() => (
-      <img src={Star2} alt="empty star" />
+    Array(5 - Math.floor(rating)).fill(0).map((curr , i) => (
+      <img src={Star2} alt="empty star" key={i} />
       ))}
   
 </div>
