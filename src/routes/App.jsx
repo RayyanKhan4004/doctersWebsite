@@ -8,7 +8,7 @@ import Card2 from '../components/Card2'
 import Card3 from '../components/Card3'
 import SearchBar from '../components/SearchBar'
 import Footer from '../components/footer'
-
+import NeurologicalDisorders from "../components/NeurologicalDisorders";
 function App() {
   return (
     <div  className='max-h-screen  leading-relaxed items-center  '>
@@ -18,6 +18,7 @@ function App() {
     
       <Navbar/>
       <HomeCoponent/>
+      <NeurologicalDisorders/>    
             <Stats/>
       <Hero/>
       <div className='text-center font-DMSans mt-[150px] ' > <h2 className='text-3xl text-[#007E85] font-bold' >Services we provide </h2>

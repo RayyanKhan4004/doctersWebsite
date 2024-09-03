@@ -49,6 +49,10 @@ html {
     src: 
      url(./fonts/dmSans/DMSans-VariableFont_opsz\,wght.ttf)  ;
 }
+@font-face {
+  font-family:  'LexendTara';
+  src: url(./fonts/Lexend_Tera/LexendTera-VariableFont_wght.ttf)
+}
 
 .nav{
   padding: 0%;

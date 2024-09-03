@@ -1,7 +1,7 @@
 .nav {
   margin-top: 20px;
   font-family: "LT";
-  /* padding: 0 20px 0 20px; */
+  
 }
 .font {
   font-family: "Lato";
@@ -26,4 +26,7 @@
 }
 .font-DMSans{
   font-family: "DMSans";
+}
+.font-LexendTara{
+  font-family: "LexendTara";
 }

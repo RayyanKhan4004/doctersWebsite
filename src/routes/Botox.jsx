@@ -9,7 +9,7 @@ export class Botox extends Component {
   render() {
     return (
       <>  
-        <dir className='p-6' >
+        <dir className='p-6 m-0' >
           
              
           <Navbar/>

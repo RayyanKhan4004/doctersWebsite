@@ -3,17 +3,17 @@ import Star from '../assets/star.png'
 import Star2 from '../assets/star2.png'
 function RatingCard({ avatar, name, title, review, rating }) {
     return (
-      <div className="min-w-[327px]  min-h-[244px] bg-white relative text-black">
+      <div className="min-w-[330px]  max-sm:max-w-[300px] sm:max-w-[330px] min-h-[244px] bg-white relative text-black">
         <div className="flex flex-col justify-between rounded-md  shadow-sm m  ">
   
         <div className='flex p-4 pl-5   '>
-  {Array(Math.floor(rating)).fill(0).map(() => (
-    <img src={Star} alt="star" />
+  {Array(Math.floor(rating)).fill(0).map((curr ,i) => (
+    <img src={Star} alt="star" key={i}/>
   ))}
   
   {
-    Array(5 - Math.floor(rating)).fill(0).map(() => (
-      <img src={Star2} alt="empty star" />
+    Array(5 - Math.floor(rating)).fill(0).map((curr , i) => (
+      <img src={Star2} alt="empty star" key={i} />
       ))}
   
 </div>
