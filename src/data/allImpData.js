@@ -10,6 +10,12 @@ import foreheadRepair from './forehead repair.png'
 import eyeZoneRepair from './eyezone repair2 1.png'
 import NAZOLABIAL from './nazola.png'
 import lipsCorrection from './lips correction 1.png'
+import ankleFootOrthotics from './ankle foot Orthotics.jpg'
+import restingHandAndFingureSplitForStoke from './resting hand and fingure split for stoke.jpg'
+import restingHandSplintForStoke from './resting hand splint for stoke.jpg'
+import advanceDynamicKneeSplint from './advance dynamic knee splint.jpg'
+import kneeBrace from './knee brace.jpg'
+import portableMiniPaddleExercise from './portable mini paddle exercise.jpg'
 const AllImpinfo = [
   {
     id: 1,
@@ -142,4 +148,67 @@ const AllImpinfo = [
   }
 
  ] 
+
+ export const Equipments = [
+  {
+    img: ankleFootOrthotics,
+    disp: 'Ankle Foot Orthotics'
+  },
+  {
+    img: restingHandAndFingureSplitForStoke,
+    disp: 'Resting Hand and Finger Split for Stroke'
+  },
+  {
+    img: restingHandSplintForStoke,
+    disp: 'Resting Hand Splint for Stroke'
+  },
+  {
+    img: advanceDynamicKneeSplint,
+    disp: 'Advance Dynamic Knee Splint'
+  },
+  {
+    img: kneeBrace,
+    disp: 'Knee Brace'
+  },
+  {
+    img: portableMiniPaddleExercise,
+    disp: 'Portable Mini Paddle Exercise'
+  }
+];
+
+
+  export const disorders = [
+  "Acute Spinal Cord Injury",
+  "Alzheimer's Disease",
+  "Amyotrophic Lateral Sclerosis (ALS)",
+  "Ataxia",
+  "Bell's Palsy",
+  "Brain Tumors",
+  "Cerebral Aneurysm",
+  "Epilepsy and Seizures",
+  "Guillain-Barré Syndrome",
+  "Headache",
+  "Head Injury",
+  "Hydrocephalus",
+  "Lumbar Disk Disease (Herniated Disk)",
+  "Meningitis",
+  "Multiple Sclerosis",
+  "Muscular Dystrophy",
+  "Neurocutaneous Syndromes",
+  "Parkinson's Disease",
+  "Stroke (Brain Attack)",
+  "Cluster Headaches",
+  "Tension Headaches",
+  "Migraine Headaches",
+  "How a Migraine Happens",
+  "Diagnosis and Treatment for Migraines",
+  "Encephalitis",
+  "Septicemia",
+  "Types of Muscular Dystrophy and Neuromuscular Diseases",
+  "Myasthenia Gravis",
+  "Overview of Stroke",
+  "Types of Stroke",
+  "Effects of Stroke",
+  "Rehabilitation for Stroke"
+];
 export default AllImpinfo;
