@@ -4,7 +4,7 @@ import AllImpinfo from '../data/allImpData'; // Assuming correct import path
 
 function Card1({ data }) {
   return (
-    <div className="max-w-sm p-6  bg-white  border relative w-[391px] h-[460px] border-gray-200 rounded-3xl shadow items-center ">
+    <div className="max-w-sm p-6 font-DMSans bg-white  border relative w-[391px] h-[460px] border-gray-200 rounded-3xl shadow items-center ">
       <a className='flex justify-center' href="#">
         <img className="rounded-t-lg w-[344px] h-[220px]  " src={data.image} alt={data.name} />
       </a>
@@ -27,7 +27,7 @@ function Card1({ data }) {
 function CardGrid() {
   return (
     <div className='w-[100%] items-center  justify-center flex'>
-    <div className="grid grid-cols-1 gap-7 gap-y-2 justify-items-center mt-5  md:grid-cols-2  xl:grid-cols-3">
+    <div className="grid grid-cols-1 gap-7w, gap-y-[22px] gap-x-[24px]  justify-items-center mt-5  md:grid-cols-2  xl:grid-cols-3">
       {AllImpinfo.map((item) => (
         <Card1 key={item.id} data={item} />
       ))}

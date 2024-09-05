@@ -13,7 +13,7 @@ function Card2() {
   
     <div className="grid grid-cols-1 gap-7 gap-y-2 justify-items-center mt-5  md:grid-cols-2  xl:grid-cols-3 ">
       {AllImpinfo2.map((info) => (
-        <div key={info.id} className="max-w-sm   relative bg-white border w-card h-card border-gray-200 rounded-[28px]  shadow ">
+        <div key={info.id} className="max-w-sm font-DMSans  relative bg-white border w-card h-card border-gray-200 rounded-[28px]  shadow ">
           {/* Profile Image */}
           <img
             className="w-40 mb-7 h-40 my-[40px] rounded-full mx-auto"

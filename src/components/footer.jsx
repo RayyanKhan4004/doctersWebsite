@@ -1,51 +1,77 @@
 
-import React from 'react';
+import React from 'react'
 import Logo from '../assets/Logo.png';
-
-function Footer() {
+export default function Footer() {
   return (
-    <div>
-      <div className="bg-gray-100">
-        <div className="pt-20 px-4 sm:px-6 bg-[#007E85] text-center text-white justify-items-center grid md:grid-cols-5">
-          <div className="  mb-4 md:mb-0 lg:mr-16">
+    <div className='h-[454px] max-md:h-auto  font-DMSans bg-theme1'>
+      <div className='flex justify-center items-center' >
+        {/* // */}
+        <div className='w-[1200px] mt-[100px]  flex max-lg:flex-col max-lg:justify-center max-lg:items-center justify-between items-start ' > 
+         <div>
+                <div className="text-white max-lg:mb-3 text-start">
            
-            <span className="text-3xl mt-2 flex justify-center items-center font-bold">  <img className="-bottom-5 aspect-square h-14 w-14" src={Logo} alt="daf" /> Healthcare</span>
-            
-            
-            <div className=' sm:w-[32ch] ml-[5rem]' >Copyright © 2022 BRIX Templates | All Rights Reserved </div>
+                        <span className="text-3xl flex items-center font-bold">  <img className="-bottom-5 aspect-square h-14 w-14" src={Logo} alt="daf" /> Healthcare</span>
+                       
+                       
+                     <div className=' max-lg:w-[32ch] ' >Copyright © 2022 BRIX Templates | All Rights Reserved </div>
+               </div>
+      </div>
+
+      {/* //  // */}
+      <div className='text-white flex max-md:flex-col h-min gap-[104px] ' >
+
+         
+        <div>
+          <span className='footerheading ' >products</span>
+          <ul>
+            <li className='lis mt-[40px]' >features</li>
+            <li className='lis' >pricing</li>
+            <li  className='lis' >case studies</li>
+            <li className='lis' >reviews</li>
+            <li   className='lis' >updates</li>
+          </ul>
+        </div>
+
+        <div>
+          <span className='footerheading' >company</span>
+          <ul>
+          <li  className='lis mt-[40px]' >About</li>
+          <li className='lis' >contact us</li>
+          <li className='lis' >Carrers</li>
+          <li className='lis' >Culture</li>
+          <li  className='lis' >Blog</li>
+          </ul>
+          
           </div>
 
-          <div className="p-5">
-            <div className=" font-bold uppercase text-white mb-5 text-lg ">Home</div>
-            <a className="my-3 block" href="/#">Services <span className="text-teal-600 text-xs p-1"></span></a>
-            <a className="my-3 block" href="/#">Products <span className="text-teal-600 text-xs p-1"></span></a>
-            <a className="my-3 block" href="/#">About Us <span className="text-teal-600 text-xs p-1"></span></a>
-            <a className="my-3 block" href="/#">Pricing <span className="text-teal-600 text-xs p-1"></span></a>
-          </div>
-          <div className="p-5">
-            <div className="font-bold uppercase text-white mb-5 text-lg">Resources</div>
-            <a className="my-3 block" href="/#">Documentation <span className="text-teal-600 text-xs p-1"></span></a>
-            <a className="my-3 block" href="/#">Tutorials <span className="text-teal-600 text-xs p-1"></span></a>
-          </div>
-          <div className="p-5">
-            <div className="font-bold uppercase text-white mb-5 text-lg">Support</div>
-            <a className="my-3 block" href="/#">Help Center <span className="text-teal-600 text-xs p-1"></span></a>
-            <a className="my-3 block" href="/#">Privacy Policy <span className="text-teal-600 text-xs p-1"></span></a>
-            <a className="my-3 block" href="/#">Conditions <span className="text-teal-600 text-xs p-1"></span></a>
-          </div>
-          <div className="p-5">
-            <div className="font-bold uppercase text-white mb-5 text-lg">Social Media</div>
-            {/* Replace with your actual social media icons and links */}
-            <a className="my-3 block" href="/#"><i className="fab fa-facebook"></i> Facebook</a>
-            <a className="my-3 block" href="/#"><i className="fab fa-twitter"></i> Twitter</a>
-            <a className="my-3 block" href="/#"><i className="fab fa-instagram"></i> Instagram</a>
-            <a className="my-3 block" href="/#"><i className="fab fa-linkedin"></i> LinkedIn</a>
-            <a className="my-3 block" href="/#"><i className="fab fa-youtube"></i> YouTube</a>
-          </div>
+
+        <div>
+          <span className='footerheading' >Support</span>
+          <ul className='' >
+            <li className='lis mt-[40px]' >Getting Started</li>
+            <li className='lis' >Help Center</li>
+            <li className='lis' >Server Status</li>
+            <li className='lis' >Report a Bug </li>
+            <li className='lis' >Chat Support</li>
+          </ul>
+        </div>
+
+
+        <div>
+          <span className='footerheading' >follow us</span>
+          <ul>
+            <li className='lis mt-[40px]' ><span></span> facebook </li>
+            <li className='lis' ><span></span> twiter </li>
+            <li className='lis' ><span></span> Instagram </li>
+            <li className='lis' ><span></span> linkedin  </li>
+            <li className='lis' ><span></span> YouTube </li>
+          </ul>
+        </div>
+        
+        
+        </div>
         </div>
       </div>
     </div>
-  );
+  )
 }
-
-export default Footer;

@@ -63,11 +63,11 @@ function Card3() {
      <div className='w-[100%] items-center justify-center flex' >
 
     
-      <div className="grid xl:grid-cols-3 gap-7   md:grid-cols-2  justify-items-center ">
+      <div className="grid xl:grid-cols-3 gap-x-[22px] gap-y-[24px]  md:grid-cols-2  justify-items-center ">
         {cardData.map((card) => (
           <div
             key={card.id}
-            className="  h-[412px] w-card relative transition duration-300  max-w-sm rounded-[24px]   overflow-hidden bg-white  shadow-lg"
+            className="  h-[412px] font-DMSans w-card relative transition duration-300  max-w-sm rounded-[24px]   overflow-hidden bg-white  shadow-lg"
           >
             <div className="py-8 m-4 px-4">
               <img src={card.img} className="rounded-full h-[80px] w-[80px] mb-8" alt={card.title} />
@@ -77,7 +77,7 @@ function Card3() {
               <p className="mb-2  leading-[1.5rem]  text-gray-600">{card.description}</p>
 
               <div className="flex  flex-col absolute bottom-[50px]  ">
-                <span className="text-[#007E85] text-lg  leading-[18px]  ">{card.category}</span>
+                <span className="text-[#007E85] text-lg font-bold  leading-[18px]  ">{card.category}</span>
                 
                 <span className="text-gray-500 m-0">{card.subcategory}</span>
               </div>

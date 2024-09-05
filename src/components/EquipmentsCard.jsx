@@ -6,11 +6,11 @@ function EquipmentsCards() {
   return (
     <div>
       <div className='flex items-center justify-center'>
-        <div>
+        <div className='w'  >
           <h2 className='text-3xl font-latoB font-bold mb-6'>
-            <span className=' text-black'>Features</span> <span className=' text-theme1'>Services</span>
+            <span className=' text-black'>Equipments</span>
           </h2>
-          <div className='grid grid-cols-3 max-w-[1200px] justify-items-center gap-3'>
+          <div className='grid grid-cols-1 gap-7w, gap-y-[22px] gap-x-[24px]  justify-items-center mt-5  md:grid-cols-2  xl:grid-cols-3'>
             {Equipments.map((curr, i) => (
               <div key={i} className='relative cursor-pointer hover:overflow-hidden rounded-xl'>
                 <img src={curr.img} alt={curr.disp} className='rounded-xl brightness-50	  w-[350px] h-[400px]  hover:scale-110' />
