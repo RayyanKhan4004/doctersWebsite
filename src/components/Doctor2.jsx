@@ -14,7 +14,7 @@ function Doctor2() {
           and <span className="text-green-600">Healthy </span>
           future
         </h3>
-        <div style={{ marginTop: "30px" }} className="w-[500px] text-sm">
+        <div style={{ marginTop: "30px" }} className="sm:w-[500px] text-sm">
           <p
             style={{
               fontFamily: "Lato",
@@ -71,14 +71,14 @@ function Doctor2() {
         <div className="z-[11] translate-y-[60%]">
           <Aftar />
         </div>
-        <div className="relative sm:min-w-[526px] sm:min-h-[626px]  sm:h-[526px] sm:w-[520px]" >
+        <div className="relative  max-sm:w-auto sm:h-[526px]" >
         <img
           src={vectorBg}
-          className=""
+          className="max-sm:w-auto"
           alt=""
         />
-        <div className="absolute z-10 flex justify-center items-center -translate-x-1/2 translate-y-1/2 -top-1/2 left-1/2 w-[110%]" >
-        <img className=" " src={d2} alt="" />
+        <div className="absolute z-10 flex justify-center items-center -translate-x-1/2 translate-y-1/2 -top-1/2 left-1/2 w-[100%]" >
+        <img className=" max-sm:w-auto " src={d2} alt="" />
 
         </div>
       </div>

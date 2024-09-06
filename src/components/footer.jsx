@@ -1,6 +1,12 @@
 
 import React from 'react'
 import Logo from '../assets/Logo.png';
+
+import Facebook from '../data/Facebook.png'
+import YouTube from '../data/YouTube.png'
+import Twitter from '../data/Twitter.png'
+import Linkedin from '../data/LinkedIn.png'
+import Instagram from '../data/Instagram.png'
 export default function Footer() {
   return (
     <div className='h-[454px] max-md:h-auto  font-DMSans bg-theme1'>
@@ -22,21 +28,21 @@ export default function Footer() {
 
          
         <div>
-          <span className='footerheading ' >products</span>
+          <span className='footerheading ' >Products</span>
           <ul>
-            <li className='lis mt-[40px]' >features</li>
-            <li className='lis' >pricing</li>
-            <li  className='lis' >case studies</li>
-            <li className='lis' >reviews</li>
-            <li   className='lis' >updates</li>
+            <li className='lis mt-[40px]' >Features</li>
+            <li className='lis' >Pricing</li>
+            <li  className='lis' >Case studies</li>
+            <li className='lis' >Reviews</li>
+            <li   className='lis' >Updates</li>
           </ul>
         </div>
 
         <div>
-          <span className='footerheading' >company</span>
+          <span className='footerheading' >Company</span>
           <ul>
           <li  className='lis mt-[40px]' >About</li>
-          <li className='lis' >contact us</li>
+          <li className='lis' >Contact us</li>
           <li className='lis' >Carrers</li>
           <li className='lis' >Culture</li>
           <li  className='lis' >Blog</li>
@@ -58,13 +64,13 @@ export default function Footer() {
 
 
         <div>
-          <span className='footerheading' >follow us</span>
+          <span className='footerheading' >Follow us</span>
           <ul>
-            <li className='lis mt-[40px]' ><span></span> facebook </li>
-            <li className='lis' ><span></span> twiter </li>
-            <li className='lis' ><span></span> Instagram </li>
-            <li className='lis' ><span></span> linkedin  </li>
-            <li className='lis' ><span></span> YouTube </li>
+            <li className='lis mt-[40px]' ><span> <img className='inline' src={Facebook} alt="" /></span> Facebook </li>
+            <li className='lis' ><span> <img className='inline h-6 w-6 ' src={Twitter} alt="" /> </span> Twiter </li>
+            <li className='lis' ><span> <img className='inline h-6 w-6' src={Instagram} alt="" /> </span> Instagram </li>
+            <li className='lis' ><span> <img className='inline h-6 w-6' src={Linkedin} alt="" /> </span> Linkedin  </li>
+            <li className='lis' ><span> <img className='inline h-6 w-6' src={YouTube} alt="" /> </span> YouTube </li>
           </ul>
         </div>
         

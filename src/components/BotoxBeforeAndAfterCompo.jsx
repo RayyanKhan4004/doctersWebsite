@@ -9,10 +9,10 @@ function BotoxBeforeAndAfterCompo() {
         <div className='flex justify-center items-center' >
             <div> 
             <div className='flex justify-center item-center flex-col' >
-            <h3 className='text-xl font-bold'>
+            <h3 className='typoBotoxtextH'>
                 Before <span className='text-theme1' >And</span> After
             </h3>
-            <p>Familiarize yourself with the works of our masters. All procedures are performed by experienced masters of our clinic.</p>
+            <p className='my-[30px]'>Familiarize yourself with the works of our masters. All procedures are performed by experienced masters of our clinic.</p>
         </div>
                 <img className='w-[1150px] md:h-[588px] rounded-md' src={BotoxBeforeAndAfterImg} alt="BotoxBeforeAndAfterImg" />
             </div>

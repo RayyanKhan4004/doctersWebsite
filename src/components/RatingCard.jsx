@@ -22,7 +22,7 @@ function RatingCard({ avatar, name, title, review, rating }) {
           
           </div>
   
-          <p className="  mt-6  text-sm ">
+          <p className="  font-Montserrat text-[#737373] text-sm ">
             {review}
           </p>
           

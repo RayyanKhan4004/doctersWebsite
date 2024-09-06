@@ -3,7 +3,7 @@
   function OrthoFindDoctor() {
     return (
       <div className="flex justify-center mt-8 ">
-        <div className=" max-w-[1440px]  flex justify-evenly  bg-white max-lg:p-5 lg:max-h-[200px] lg:min-h-[192px] rounded-lg lg:min-w-[1200px] ">
+        <div className=" max-w-[1240px]  flex justify-evenly bg-white max-lg:p-5 lg:max-h-[200px] lg:min-h-[192px] rounded-lg lg:min-w-[1240px] ">
           <div className="  ">
             <div className="w-[237px] h-[46px] ">
               <h3 className="font-sans text-3xl mt-6 font-DMSans font-bold text-center   ">

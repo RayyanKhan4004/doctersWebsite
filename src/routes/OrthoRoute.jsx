@@ -15,8 +15,14 @@ function OrthoRoute() {
       <div className="pt-[24px] px-6">
         <Navbar style='pb-6' />
       </div>
-      <div className="h-[733px] ortho1  flex items-center mdh-1/2">
-        <div className="ml-7">
+      {/* ? */}
+      <div className="h-[733px] ortho1  justify-center flex items-center ">
+
+
+
+        <div className="flex justify-start  items-center  lg:w-[1400px] ">
+
+        <div className="max-xl:pl-6">
           <h2 className="text-5xl font-latoB  text-white font-extrabold">
             Bringing individualized <br />
             <span className="text-[#007E85] ">Healthcare</span>
@@ -30,6 +36,10 @@ function OrthoRoute() {
             Learn More
           </button>
         </div>
+        </div>
+
+
+
       </div>
       {/* p-6 */}
       <div className="p-6">
