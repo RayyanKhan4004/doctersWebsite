@@ -16,7 +16,7 @@ export class Botox extends Component {
           <BotoxHero/>
           <dir className='p-6 m-0' >
           <Botoxcards/> 
-          <div className='flex justify-center' ><button className='text-theme1 w-52 h-12 border-theme1 bg-transparent mt-4  border-2 rounded-md ' >View More</button></div>
+
           <BotoxOvrlappingImgCompo/>
           <BotoxBeforeAndAfterCompo/>
           </dir>

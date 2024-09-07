@@ -2,7 +2,7 @@
 
   function OrthoFindDoctor() {
     return (
-      <div className="flex justify-center mt-8 ">
+      <div className="flex justify-center mb-[100px] ">
         <div className=" max-w-[1240px]  flex justify-evenly bg-white max-lg:p-5 lg:max-h-[200px] lg:min-h-[192px] rounded-lg lg:min-w-[1240px] ">
           <div className="  ">
             <div className="w-[237px] h-[46px] ">
@@ -25,7 +25,7 @@
 
               />
               
-
+{/* /Switch/ */}
               <label className="flex justify-center items-center">
               <span className="ms-3 text-md font-medium text-gray-900 dark:text-gray-400" style={{marginRight:10}}>
                   Available
@@ -38,7 +38,8 @@
               </span>
                 </div>
               </label>
-              {/* // */}
+
+              {/* / switch / */}
               <button className="h-[66px] bg-theme1 text-white min-w-[201px] leading-relaxed rounded-md ">
                 {" "}
                 Search

@@ -4,9 +4,9 @@ function Botoxcards() {
   return (
     
 
-    <div>
+    <div className='mb-[100px]' >
 
-        <div className='flex items-center justify-center' >
+        <div className='flex items-center justify-center   ' >
           <div>
         <h2><span className=' text-black typoBotoxtextH' >Features</span> <span className='typoBotoxtextH text-theme1' >Services</span> </h2>
         <div className='grid grid-cols-1  gap-y-[50px] gap-x-[50px]  justify-items-center mt-5  md:grid-cols-2  xl:grid-cols-3' >
@@ -22,6 +22,7 @@ function Botoxcards() {
         </div>
        
         </div>
+        <div className='flex justify-center' ><button className='text-theme1 w-52 h-12 border-theme1 bg-transparent mt-4  border-2 rounded-md ' >View More</button></div>
     </div>
   )
 }

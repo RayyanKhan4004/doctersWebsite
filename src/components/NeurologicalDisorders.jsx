@@ -10,7 +10,7 @@ const NeurologicalDisorders = () => {
   };
 
   return ( 
-    <div className="w-[100%] flex mt-20" style={{display:'flex',alignItems:'center', justifyContent:'center'}}>
+    <div className="w-[100%] flex mb-[100px]" style={{display:'flex',alignItems:'center', justifyContent:'center'}}>
       <div className="text-theme1  font-latoB max-w-[1380px]" >
         <h2 className="font-semibold font-latoB text-theme1 text-3xl mb-4">
           Neurological <span className="text-green-600">Disorders</span>

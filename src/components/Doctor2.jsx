@@ -4,7 +4,7 @@ import vectorBg from "../assets/Vector.svg";
 import d2 from '../assets/d2.png'
 function Doctor2() {
   return (
-    <div className="flex  flex-col mt-20 w-auto justify-center items-center">
+    <div className="flex  flex-col mt-20 w-auto mb-[100px] justify-center items-center">
     <div className="flex xl:flex-row-reverse flex-col-reverse w-[100%]x 2xl:w-[1380px] max-w-[1380px] items-center justify-between  main-box,m gap-[2rem]">
       <div className="max-w-[657px]">
         <h3 className="font font-semibold size40">

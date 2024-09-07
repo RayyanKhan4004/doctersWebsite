@@ -2,7 +2,7 @@ import React from 'react'
 import heroimg from '../assets/image placeholder.png'
 function hero() {
   return (
-    <div className='flex items-center justify-center' ><div class="relative flex flex-col items-center xl:min-w-[1200px] md:max-w-[1400px]    lg:flex-row sm:px-6 ">
+    <div className='flex items-center mb-[50px] justify-center' ><div class="relative flex flex-col items-center xl:min-w-[1200px] md:max-w-[1400px]    lg:flex-row sm:px-6 ">
     <div class="flex items-center py-5 md:w-1/2 md:pb-20 xl:pt-10 xl:pr-10">
         <div class="text-left">
             <h2

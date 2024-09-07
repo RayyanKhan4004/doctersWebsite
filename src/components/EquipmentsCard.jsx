@@ -5,10 +5,10 @@ import { Equipments } from '../data/allImpData'; // Assuming you saved the array
 function EquipmentsCards() {
   return (
     <div>
-      <div className='flex items-center justify-center'>
+      <div className='flex items-center mb-[100px] justify-center'>
         <div className='w'  >
-          <h2 className='text-3xl font-latoB font-bold mb-6'>
-            <span className=' text-black'>Equipments</span>
+          <h2 className='  font-latoB font-bold mb-6'>
+            <span className=' text-4xl text-theme1   font-bold '>Equipments</span>
           </h2>
           <div className='grid grid-cols-1 gap-7w, gap-y-[22px] gap-x-[24px]  justify-items-center mt-5  md:grid-cols-2  xl:grid-cols-3'>
             {Equipments.map((curr, i) => (

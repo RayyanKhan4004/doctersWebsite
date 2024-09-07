@@ -2,7 +2,7 @@ import React from 'react'
 import Botox2 from '../assets/Botox2.png'
 function BotoxOvrlappingImgCompo() {
   return (
-    <div className='flex justify-center items-center'>
+    <div className='flex justify-center mb-[100px] items-center'>
         <div className='flex  max-md:flex-col-reverse justify-between lg:w-[1170px]  items-center h-[528px] ' >
             <div className='  ' >
                 <img className=''  src={Botox2} alt="overlapping img" />

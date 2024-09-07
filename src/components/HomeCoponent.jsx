@@ -9,7 +9,7 @@ import "./styles/styles.css";
 function HomeCoponent() {
   return (
     <>
-      <div className="flex  flex-col mt-20 justify-center items-center">
+      <div className="flex  flex-col mt-20 justify-center mb-[100px] items-center">
         <div className="flex lg:flex-row flex-col-reverse  w-[100%] max-w-[1380px] items-center justify-between  main-box gap-[2rem]">
           <div className="max-w-[657px]">
             <h3 className="font font-semibold size40">
