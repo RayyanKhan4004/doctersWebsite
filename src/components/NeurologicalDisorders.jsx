@@ -1,16 +1,20 @@
 
 import React, { useState } from "react";
 import { disorders } from "../data/allImpData";
-
+import Aos from "aos";
+import "aos/dist/aos.css";
+import { useEffect } from "react";
 const NeurologicalDisorders = () => {
   const [showAll, setShowAll] = useState(false);
 
   const handleToggle = () => {
     setShowAll(!showAll);
   };
-
+  useEffect(()=>{
+    Aos.init({duration: 500});
+  }, [])
   return ( 
-    <div className="w-[100%] flex mb-[100px]" style={{display:'flex',alignItems:'center', justifyContent:'center'}}>
+    <div data-aos='fade-down' className="w-[100%] flex mb-[100px]" style={{display:'flex',alignItems:'center', justifyContent:'center'}}>
       <div className="text-theme1  font-latoB max-w-[1380px]" >
         <h2 className="font-semibold font-latoB text-theme1 text-3xl mb-4">
           Neurological <span className="text-green-600">Disorders</span>

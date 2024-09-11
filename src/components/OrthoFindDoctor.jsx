@@ -1,8 +1,15 @@
   import React from "react";
-
+ import { useEffect } from "react";
+ import Aos from "aos";
+import "aos/dist/aos.css";
   function OrthoFindDoctor() {
+    useEffect(()=>{
+      Aos.init({duration: 1000});
+    }, [])
     return (
-      <div className="flex justify-center mb-[100px] ">
+      <div 
+      data-aos='fade-down'
+      className="flex justify-center mb-[100px] ">
         <div className=" max-w-[1240px]  flex justify-evenly bg-white max-lg:p-5 lg:max-h-[200px] lg:min-h-[192px] rounded-lg lg:min-w-[1240px] ">
           <div className="  ">
             <div className="w-[237px] h-[46px] ">

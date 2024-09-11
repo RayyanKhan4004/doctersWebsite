@@ -1,15 +1,23 @@
 
 import React from 'react'
 import Logo from '../assets/Logo.png';
-
+import { useEffect } from 'react';
 import Facebook from '../data/Facebook.png'
 import YouTube from '../data/YouTube.png'
 import Twitter from '../data/Twitter.png'
 import Linkedin from '../data/LinkedIn.png'
 import Instagram from '../data/Instagram.png'
+import Aos from "aos";
+import "aos/dist/aos.css";
 export default function Footer() {
+  useEffect(()=>{
+    Aos.init({duration: 1000});
+  }, [])
+
   return (
-    <div className='h-[454px] max-md:h-auto  font-DMSans bg-theme1'>
+    <div  data-aos='fade-up'
+    // data-aos-anchor-placement="bottom-bottom"
+     className='h-[454px] max-md:h-auto  font-DMSans bg-theme1'>
       <div className='flex justify-center items-center' >
         {/* // */}
         <div className='w-[1200px] mt-[100px]  flex max-lg:flex-col max-lg:justify-center max-lg:items-center justify-between items-start ' > 

@@ -1,8 +1,16 @@
 import React from "react";
-
+import Aos from "aos";
+import "aos/dist/aos.css";
+import { useEffect } from "react";
 function Stats() {
+  useEffect(()=>{
+    Aos.init({duration: 1000});
+  }, [])
   return (
-    <div className="flex items-center justify-center" >
+    <div data-aos='fade-up' 
+    
+        data-aos-anchor-placement="center-bottom"
+    className=" flex items-center justify-center" >
 
     
     <div class=" xl:w-[1400px] font-DMSans statsTypography h-[410px] ">

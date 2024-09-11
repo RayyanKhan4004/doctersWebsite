@@ -1,8 +1,14 @@
-import React from 'react'
 
-function BetweenText({Heading , paragraph}) {
+import Aos from "aos";
+import "aos/dist/aos.css";
+import { useEffect } from 'react';
+function BetweenText({Heading , paragraph , animation}) {
+  useEffect(()=>{
+    Aos.init({duration: 1000});
+  }, [])
   return (
-    <div className="text-center font-DMSans pt-[116px] pb-[50px]">
+    <div data-aos={animation}
+    data-aos-anchor-placement="center-bottom" className="text-center font-DMSans pt-[116px] pb-[50px]">
     
     <h2 className="text-4xl leading-[46px]  text-[#007E85] font-bold">
       {Heading}

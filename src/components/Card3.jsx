@@ -1,6 +1,8 @@
 
 import React from 'react';
-
+import Aos from "aos";
+import "aos/dist/aos.css";
+import { useEffect } from 'react';
 const cardData = [
   {
     id: 1,
@@ -59,6 +61,9 @@ const cardData = [
 ];
 
 function Card3() {
+  useEffect(()=>{
+    Aos.init({duration: 1000});
+  }, [])
   return (
      <div className='w-[100%] items-center justify-center flex' >
 
@@ -67,6 +72,10 @@ function Card3() {
         {cardData.map((card) => (
           <div
             key={card.id}
+
+            data-aos='fade-left'
+        data-aos-anchor-placement="center-bottom"
+
             className="  h-[412px] font-DMSans w-card relative transition duration-300  max-w-sm rounded-[24px]   overflow-hidden bg-white  shadow-lg"
           >
             <div className="py-8 m-4 px-4">

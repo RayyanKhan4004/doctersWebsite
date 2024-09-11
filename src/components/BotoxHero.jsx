@@ -1,10 +1,21 @@
 import React from 'react'
 import heroBotox from '../assets/BotoxHero.png'
+import { useEffect } from 'react'
+import Aos from 'aos'
+import 'aos/dist/aos.css'
 function BotoxHero() {
+  useEffect(()=>{
+Aos.init({duration : 1000})
+  }, [])
+  
   return (
-    <div>         
+
+    <div  data-aos='fade-up'  >         
          <div className='w-[100%] flex items-center justify-evenly max-lg:p-6 max-lg:flex-col-reverse flex-row max-lg:h-auto h-[528px] bg-[#016A70] mb-[100px] ' >
-    <div className='text-3xl text-white '> Where can i find a <span className='font-bold' >specialist?</span> 
+    <div 
+    data-aos='fade-right'
+    
+    className='text-3xl text-white '> Where can i find a <span className='font-bold' >specialist?</span> 
     <p className='w-[40ch] text-sm ' > BOTOX® Specialists are doctors 
         who are experienced in treating Chronic Migraine with BOTOX® to prevent headaches and migraine attacks
          before they even start.*</p>
@@ -16,7 +27,11 @@ function BotoxHero() {
 
          </div>
     </div>
-    <div className='relative ' >
+    <div 
+    
+    data-aos='fade-left'
+    
+    className='relative ' >
         <img className='w-[595px] h-[350px] ' src={ heroBotox} alt="HeroBotox" />
         <div className='w-32 h-20 max-sm:w-16 max-sm:h-10 max-sm:rounded-md absolute bg-white rounded-xl max-xl:right-5 -top-5 -right-5 ' >
         </div>

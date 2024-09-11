@@ -1,17 +1,20 @@
-import React from "react";
+import React, { useEffect } from "react";
 import d1 from '../assets/d1.png'
-import d2 from '../assets/d2.png'
-import doctor1 from "../assets/Dr.abubakir sadiiq.png";
+import Aos from "aos";
+import "aos/dist/aos.css";
 import vectorBg from "../assets/Vector.svg";
 import Aftar from "./Aftar";
 import "./styles/styles.css";
 
 function HomeCoponent() {
+  useEffect(()=>{
+    Aos.init({duration: 1000});
+  }, [])
   return (
     <>
       <div className="flex  flex-col mt-20 justify-center mb-[100px] items-center">
         <div className="flex lg:flex-row flex-col-reverse  w-[100%] max-w-[1380px] items-center justify-between  main-box gap-[2rem]">
-          <div className="max-w-[657px]">
+          <div  data-aos="fade-right" className="max-w-[657px]">
             <h3 className="font font-semibold size40">
               Providing Quality{" "}
               <span className="text-[#007E85]">Healthcare</span> for A
@@ -84,13 +87,14 @@ function HomeCoponent() {
               </button>
             </div>
           </div>
-
-          <div className="  flex justify-center relative flex-row ">
+{/* aos */}
+          <div  data-aos='fade-left' className="  flex justify-center relative flex-row ">
             <div className="z-[11] translate-y-[60%]">
               <Aftar />
             </div>
             <div className="relative sm:min-w-[526px] sm:min-h-[626px]  sm:h-[526px] sm:w-[520px]" >
               <img
+              
                 src={vectorBg}
                 className=""
                 alt=""

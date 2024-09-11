@@ -3,7 +3,13 @@ import Logo from "../assets/Logo.png";
 import { useNavigate } from "react-router-dom";
 import { useState } from "react";
 import "./styles/styles.css";
+import { useEffect } from "react";
+import Aos from "aos";
+import "aos/dist/aos.css";
 function Navbar({style}) {
+  useEffect(()=>{
+    Aos.init({duration: 1000});
+  }, [])
   const navigate = useNavigate();
   const [showMenu , setShowMenu] = useState(false);
   const linksCss = `flex items-center flex-col  lg:flex-row  max-lg:absolute lg:right-10 ${
@@ -22,7 +28,7 @@ function Navbar({style}) {
     navigate("/botox");
   }
   return (
-    <div className="nav flex  lg:justify-center w-[100%]">
+    <div  data-aos='fade-down' className="nav flex  lg:justify-center w-[100%]">
       <nav className={nav}  >
         <div
           className="flex flex-row cursor-pointer mb-4 items-center md:mb-0 m mlg:mr-16"

@@ -2,11 +2,20 @@ import React from 'react'
 import Aftar from './Aftar'
 import vectorBg from "../assets/Vector.svg";
 import d2 from '../assets/d2.png'
+import Aos from "aos";
+import "aos/dist/aos.css";
+import { useEffect } from 'react';
 function Doctor2() {
+  useEffect(()=>{
+    Aos.init({duration: 1000});
+  }, [])
   return (
-    <div className="flex  flex-col mt-20 w-auto mb-[100px] justify-center items-center">
+    <div className=" flex  flex-col mt-20 w-auto mb-[100px] justify-center items-center">
     <div className="flex xl:flex-row-reverse flex-col-reverse w-[100%]x 2xl:w-[1380px] max-w-[1380px] items-center justify-between  main-box,m gap-[2rem]">
-      <div className="max-w-[657px]">
+      <div  data-aos='fade-up-left'
+      
+        data-aos-anchor-placement="center-bottom"
+      className="max-w-[657px]">
         <h3 className="font font-semibold size40">
           Providing Quality
           <span className="text-[#007E85]">Healthcare</span> for A
@@ -67,7 +76,10 @@ function Doctor2() {
         </button>
       </div>
 
-      <div className="  flex justify-center relative flex-row ">
+      <div  data-aos='fade-up-right'
+      data-aos-anchor-placement="center-bottom"
+
+      className="  flex justify-center relative flex-row ">
         <div className="z-[11] translate-y-[60%]">
           <Aftar />
         </div>

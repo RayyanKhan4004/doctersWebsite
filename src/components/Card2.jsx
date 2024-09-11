@@ -5,15 +5,21 @@ import Facebook from '../assets/Facebook.png';
 import Instagram from '../assets/Instagram.png';
 import Linkedin from '../assets/Linkedin.png';
 import { AllImpinfo2 } from '../data/allImpData';
-
+import Aos from "aos";
+import "aos/dist/aos.css";
+import { useEffect } from 'react';
 function Card2() {
+  useEffect(()=>{
+    Aos.init({duration: 1000});
+  }, [])
   return (
   <div className='w-[100%] items-center justify-center flex' >
 
   
     <div className="grid grid-cols-1 gap-7 gap-y-2 justify-items-center mt-5  md:grid-cols-2  xl:grid-cols-3 ">
       {AllImpinfo2.map((info) => (
-        <div key={info.id} className="max-w-sm font-DMSans  relative bg-white border w-card h-card border-gray-200 rounded-[28px]  shadow ">
+        <div key={info.id} data-aos='fade-up'
+        data-aos-anchor-placement="center-bottom" className="max-w-sm font-DMSans  relative bg-white border w-card h-card border-gray-200 rounded-[28px]  shadow ">
           {/* Profile Image */}
           <img
             className="w-40 mb-7 h-40 my-[40px] rounded-full mx-auto"

@@ -1,10 +1,20 @@
 
 import React from 'react';
-import AllImpinfo from '../data/allImpData'; // Assuming correct import path
-
+import AllImpinfo from '../data/allImpData'; 
+import Aos from "aos";
+import "aos/dist/aos.css";
+import { useEffect } from 'react';
 function Card1({ data }) {
+  useEffect(()=>{
+    Aos.init({duration: 1000});
+  }, [])
+
   return (
-    <div className="max-w-sm p-6 font-DMSans bg-white  border relative w-[391px] h-[460px] border-gray-200 rounded-3xl shadow items-center ">
+    <div 
+    data-aos='fade-up'
+        data-aos-anchor-placement="center-bottom"
+
+    className="max-w-sm p-6 font-DMSans bg-white  border relative w-[391px] h-[460px] border-gray-200 rounded-3xl shadow items-center ">
       <a className='flex justify-center' href="#">
         <img className="rounded-t-lg w-[344px] h-[220px]  " src={data.image} alt={data.name} />
       </a>
