@@ -29,18 +29,21 @@ function App() {
         paragraph=' Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia
               aliquid at rem quibusdam! Quis distinctio iure corporis iste
               voluptates, voluptas nemo ex eaque?'
+              animation='fade-down'
         />
         <Card1 />
 
         <BetweenText Heading='Meet our previous clint' 
         paragraph=' Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia
               aliquid at rem quibusdam! Quis distinctio iure corporis'
+              animation='fade-down'
         />
         <Card2 />
 
         <BetweenText Heading='Testimonial'
         paragraph=' Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia
         aliquid at rem quibusdam! Quis distinctio iure corporis iste'
+        animation='fade-right'
         />
         <Card3 />
         <SearchBar />{" "}

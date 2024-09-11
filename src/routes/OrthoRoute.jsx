@@ -9,14 +9,23 @@ import { Equipments, ratingData } from "../data/allImpData.js";
 import EquipmentsCard from "../components/EquipmentsCard.jsx";
 import Doctor2 from "../components/Doctor2.jsx";
 import BetweenText from "../components/BetweenText.jsx";
+import { useEffect } from "react";
+import Aos from "aos";
+import "aos/dist/aos.css";
 function OrthoRoute() {
+
+  useEffect(()=>{
+    Aos.init({duration: 1000});
+  }, [])
   return (
     <div className="h-screen w-full">
       <div className="pt-[24px] px-6">
         <Navbar style='pb-6' />
       </div>
       {/* ? */}
-      <div className="h-[733px] ortho1  justify-center flex items-center ">
+      <div 
+      data-aos='zoom-in-right'
+      className="h-[733px] ortho1  justify-center flex items-center ">
 
 
 
@@ -51,7 +60,11 @@ function OrthoRoute() {
         <OrthoHero />
         <BetweenText Heading='What Our Customer Say'
         paragraph='Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia
-              aliquid at rem quibusdam! Quis distinctio iure corporis iste' />
+              aliquid at rem quibusdam! Quis distinctio iure corporis iste'
+              
+              animation='fade-down'
+              
+              />
       
         <div className="flex justify-center items-center">
           <div className="grid xl:grid-cols-3 gap-x-8     justify-items-center  w-[1240px] md:grid-cols-2 lg:grid-cols-3 mt-7  gap-y-20 ">
