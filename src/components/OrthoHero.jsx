@@ -65,7 +65,7 @@ function OrthoHero() {
         </div>
         <div  
         
-         data-aos='fade-left'
+         data-aos='fade-down'
                   data-aos-anchor-placement="center-bottom"
         
         className="flex justify-center items-center lg:min-h-[330px]">

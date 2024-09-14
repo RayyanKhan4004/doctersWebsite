@@ -22,21 +22,21 @@ Aos.init({duration : 1000})
 
          <div className='mt-6' >
 
-         <button className='bg-theme1 p-1 font-LexendTara typoBotoxHeroBtn text-white w-[210px] h-[51px] rounded-lg max-lg:mb-3' >Appointment</button>
-         <button className='bg-transparent font-LexendTara typoBotoxHeroBtn text-white border-2 p-1 border-white    rounded-md sm:ml-2 w-[210px] h-[51px]' >Learn More </button>
+         <button  data-aos='fade-right'   className='bg-theme1 p-1 font-LexendTara typoBotoxHeroBtn text-white w-[210px] h-[51px] rounded-lg max-lg:mb-3' >Appointment</button>
+         <button  data-aos='fade-right' className='bg-transparent font-LexendTara typoBotoxHeroBtn text-white border-2 p-1 border-white    rounded-md sm:ml-2 w-[210px] h-[51px]' >Learn More </button>
 
          </div>
     </div>
     <div 
     
-    data-aos='fade-left'
+    data-aos='fade-down'
     
     className='relative ' >
         <img className='w-[595px] h-[350px] ' src={ heroBotox} alt="HeroBotox" />
-        <div className='w-32 h-20 max-sm:w-16 max-sm:h-10 max-sm:rounded-md absolute bg-white rounded-xl max-xl:right-5 -top-5 -right-5 ' >
+        <div data-aos='fade-left' className='w-32 h-20 max-sm:w-16 max-sm:h-10 max-sm:rounded-md absolute bg-white rounded-xl max-xl:right-5 -top-5 -right-5 ' >
         </div>
 
-         <div className='w-32 max-sm:w-16 max-sm:h-10 max-sm:rounded-md h-20 absolute bg-theme1 rounded-xl max-xl:right-1 top-0 -right-10 ' >
+         <div data-aos='fade-right'  className='w-32 max-sm:w-16 max-sm:h-10 max-sm:rounded-md h-20 absolute bg-theme1 rounded-xl max-xl:right-1 top-0 -right-10 ' >
         </div>
     </div>
 

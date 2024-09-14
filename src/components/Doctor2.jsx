@@ -12,7 +12,7 @@ function Doctor2() {
   return (
     <div className=" flex  flex-col mt-20 w-auto mb-[100px] justify-center items-center">
     <div className="flex xl:flex-row-reverse flex-col-reverse w-[100%]x 2xl:w-[1380px] max-w-[1380px] items-center justify-between  main-box,m gap-[2rem]">
-      <div  data-aos='fade-up-left'
+      <div  data-aos='fade-up'
       
         data-aos-anchor-placement="center-bottom"
       className="max-w-[657px]">
@@ -97,6 +97,7 @@ function Doctor2() {
 
         <div
           style={{ borderRadius: 10, alignItems: "center" }}
+          data-aos='fade-down'
           className="text-[#000000] Lato absolute max-sm:right-0 max-sm:top-5  right-[55px] top-[60px] p-2 hover:scale-105 z-[12] bg-white rounded-sm"
         >
           <span

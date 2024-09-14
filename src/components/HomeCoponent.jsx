@@ -88,7 +88,7 @@ function HomeCoponent() {
             </div>
           </div>
 {/* aos */}
-          <div  data-aos='fade-left' className="  flex justify-center relative flex-row ">
+          <div  data-aos='fade-up' className="  flex justify-center relative flex-row ">
             <div className="z-[11] translate-y-[60%]">
               <Aftar />
             </div>
@@ -105,7 +105,10 @@ function HomeCoponent() {
               </div>
             </div>
           
-            <div
+            <div 
+
+                data-aos='fade-right'
+
               style={{ borderRadius: 10, alignItems: "center" }}
               className="text-[#000000] Lato absolute max-sm:right-0 max-sm:top-5  right-[55px] top-[60px] p-2 hover:scale-105 z-[12] bg-white rounded-sm"
             >

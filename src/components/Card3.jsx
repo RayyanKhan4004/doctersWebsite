@@ -73,7 +73,7 @@ function Card3() {
           <div
             key={card.id}
 
-            data-aos='fade-left'
+            data-aos='fade-right'
         data-aos-anchor-placement="center-bottom"
 
             className="  h-[412px] font-DMSans w-card relative transition duration-300  max-w-sm rounded-[24px]   overflow-hidden bg-white  shadow-lg"

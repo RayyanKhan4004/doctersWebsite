@@ -15,12 +15,12 @@ Aos.init({duration : 1000})
                 <img className=''  src={Botox2} alt="overlapping img" />
             </div>
             <div
-             data-aos='fade-up-left'
-            className='text-center flex  flex-col justify-center items-center' >
-                <h3 className=' md:w-[40ch]  text-xl text-center' >Ask your doctor
+             data-aos='fade-up'
+            className=' max-md:text-center t flex  flex-col justify-center ' >
+                <h3 className=' md:w-[40ch] mb-2  text-xl ' >Ask your doctor
                     if they have BOTOX®
                     samples available</h3>
-                    <p className='text-sm text-center w-[40ch]' >*Only your physician can determine if BOTOX® is appropriate
+                    <p data-aos='fade-up' className='text-sm text-centeer w-[40ch]' >*Only your physician can determine if BOTOX® is appropriate
                     for you. Sample availability may vary by provider or location.</p>
             </div>
         </div>

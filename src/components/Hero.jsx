@@ -27,7 +27,7 @@ function hero() {
             </div>
         </div>
     </div>
-    <div data-aos='fade-left'
+    <div data-aos='fade-down'
     data-aos-anchor-placement="center-bottom"
     class="flex items-center  lg:w-1/2  lg:pt-10 lg:pl-10">
         <div class="relative w-full p-3 rounded  ">

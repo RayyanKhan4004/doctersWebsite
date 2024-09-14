@@ -12,9 +12,9 @@ function Navbar({style}) {
   }, [])
   const navigate = useNavigate();
   const [showMenu , setShowMenu] = useState(false);
-  const linksCss = `flex items-center flex-col  lg:flex-row  max-lg:absolute lg:right-10 ${
+  const linksCss = `flex items-center flex-col lg:flex-row max-lg:absolute lg:right-10 ${
     showMenu
-      ? "  absolute z-40 max-lg:bg-gray-400/20 h-[100vh] text-center   max-lg:min-w-[100vw] m ax-lg:top-[15%]"
+      ? " absolute z-40 max-lg:bg-gray-400/20 h-[100vh] text-center   max-lg:min-w-[100vw] m ax-lg:top-[15%]"
       : " sm:hidden max-sm:hidden  md:hidden lg:flex max-lg:flex NAV-ANI"
   }`;
   const nav = `w-[100%] lg:max-w-[1400px] flex  flex-col justify-between lg:flex-row rounded-md z-20  ${style}`
@@ -74,4 +74,3 @@ function Navbar({style}) {
 }
 
 export default Navbar;
-

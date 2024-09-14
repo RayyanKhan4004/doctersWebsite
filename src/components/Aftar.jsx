@@ -3,7 +3,7 @@ import React from 'react'
 function Aftar() {
   return (
     <div >
-    <div className="flex space-x-2 max-sm:h-12 mb-1 z-[12] fixed -left-6 max-sm:w-24 max-sm:-top-7 max-sm:-left-10  w-44 p-3 items-center bg-white overflow-clip animate-out rounded-md  h-[68px] duration-200 delay-300">
+    <div data-aos='fade-down' className="flex space-x-2 max-sm:h-12 mb-1 z-[12] fixed -left-6 max-sm:w-24 max-sm:-top-7 max-sm:-left-10  w-44 p-3 items-center bg-white overflow-clip animate-out rounded-md  h-[68px] duration-200 delay-300">
     <div>
         <div className="font-semibold text-sm text-center md:text-centre">Trusted by</div>
         <div className="flex space-x-2 items-center flex-col md:flex-row">
