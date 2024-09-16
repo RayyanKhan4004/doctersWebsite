@@ -14,8 +14,8 @@ import Doctor2 from "../components/Doctor2";
 function App() {
   return (
     <div className="max-h-screen  leading-relaxed items-center  ">
+        <Navbar  />
       <div className="p-6">
-        <Navbar />
         <HomeCoponent />
         <NeurologicalDisorders />
       

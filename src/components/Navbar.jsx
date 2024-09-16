@@ -12,12 +12,12 @@ function Navbar({style}) {
   }, [])
   const navigate = useNavigate();
   const [showMenu , setShowMenu] = useState(false);
-  const linksCss = `flex items-center flex-col lg:flex-row max-lg:absolute lg:right-10 ${
+  const linksCss = `flex items-center flex-col lg:flex-row  p-6  lg:right-10 ${
     showMenu
-      ? " absolute z-40 max-lg:bg-gray-400/20 h-[100vh] text-center   max-lg:min-w-[100vw] m ax-lg:top-[15%]"
-      : " sm:hidden max-sm:hidden  md:hidden lg:flex max-lg:flex NAV-ANI"
+      ? "  max-lg:bg-white rounded-lg  h-[50vh]  z-30 text-center top-0  justify-center items-center  right-0  max-lg:min-w-[100vw]"
+      : " sm:hidden max-sm:hidden   lg:flex max-lg:flex "
   }`;
-  const nav = `w-[100%] lg:max-w-[1400px] flex  flex-col justify-between lg:flex-row rounded-md z-20  ${style}`
+  const nav = `w-[100%] lg:max-w-[1400px] flex  flex-col justify-between lg:flex-row rounded-md z-20  ${style} ${showMenu? 'px-0': "px-6"} `
   const h1 =
     "tabs letterSpacing  mx-4 hover:text-[#007E85] hover:border-b-2 hover:border-[#007E85] transition duration-500 cursor-pointer focus:text-[#007E85] focus:border-b-2";
   // fx
@@ -45,7 +45,7 @@ function Navbar({style}) {
 
         <div className={linksCss}>
           <h1
-            className={`${h1} heading mb-2 md:mb-0`}
+            className={`${h1} heading mb-2Y md:mb-0`}
             onClick={() => {
               navigate("/");
             }}
