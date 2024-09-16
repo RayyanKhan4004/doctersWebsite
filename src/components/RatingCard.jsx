@@ -17,7 +17,7 @@ function RatingCard({ avatar, name, title, review, rating }) {
   
         <div 
         
-         data-aos='fade-left'
+         data-aos='fade-down'
                   data-aos-anchor-placement="center-bottom"
         
         className='flex   '>

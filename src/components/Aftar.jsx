@@ -1,6 +1,12 @@
 import React from 'react'
-
+import Aos from 'aos'
+import 'aos/dist/aos.css'
+import { useEffect } from 'react'
 function Aftar() {
+useEffect(()=>{
+  Aos.init({
+    duration: 1000
+})})
   return (
     <div >
     <div data-aos='fade-down' className="flex space-x-2 max-sm:h-12 mb-1 z-[12] fixed -left-6 max-sm:w-24 max-sm:-top-7 max-sm:-left-10  w-44 p-3 items-center bg-white overflow-clip animate-out rounded-md  h-[68px] duration-200 delay-300">

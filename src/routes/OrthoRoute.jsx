@@ -19,7 +19,7 @@ function OrthoRoute() {
   }, [])
   return (
     <div className="h-screen w-full">
-      <div className="pt-[24px] px-6">
+      <div className="pt-[24px] px-65t">
         <Navbar style='pb-6' />
       </div>
       {/* ? */}
@@ -37,7 +37,7 @@ function OrthoRoute() {
             <span className="text-[#007E85] ">Healthcare</span>
           </h2>
           <br />
-          <button className="bg-[#007E85]  h-[51px]  w-[210px] text-white rounded-lg border-2 border-[#007E85] font-LexendTara Ortho1stbtn ">
+          <button className="bg-[#007E85] max-sm:m-2  h-[51px]  w-[210px] text-white rounded-lg border-2 border-[#007E85] font-LexendTara Ortho1stbtn ">
             {" "}
             Appointments
           </button>

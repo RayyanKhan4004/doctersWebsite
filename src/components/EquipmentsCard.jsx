@@ -17,7 +17,7 @@ function EquipmentsCards() {
       
       className='flex items-center mb-[100px]  justify-center'>
         <div className='w'  >
-          <h2   data-aos='fade-left'
+          <h2   data-aos='fade-down'
                   data-aos-anchor-placement="center-bottom" className='  font-latoB font-bold mb-6'>
             <span 
                   className=' text-4xl text-theme1   font-bold '>Equipments</span>

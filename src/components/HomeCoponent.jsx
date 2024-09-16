@@ -92,7 +92,7 @@ function HomeCoponent() {
             <div className="z-[11] translate-y-[60%]">
               <Aftar />
             </div>
-            <div className="relative sm:min-w-[526px] sm:min-h-[626px]  sm:h-[526px] sm:w-[520px]" >
+            <div className="relative sm:min-w-[526px] sm:min-h-[626px]  sm:h-[526px] sm:w-[520px] z-0  " >
               <img
               
                 src={vectorBg}
