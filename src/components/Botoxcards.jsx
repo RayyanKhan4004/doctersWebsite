@@ -11,7 +11,7 @@ Aos.init({duration: 1000})
   return (
     
 
-    <div className='mb-[100px]' >
+    <div className='mb-[100px] mt-8 ' >
 
         <div className='flex items-center justify-center   ' >
           <div>

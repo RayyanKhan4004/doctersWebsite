@@ -12,12 +12,12 @@ function Navbar({style}) {
   }, [])
   const navigate = useNavigate();
   const [showMenu , setShowMenu] = useState(false);
-  const linksCss = `flex items-center flex-col lg:flex-row  p-6  lg:right-10 ${
+  const linksCss = `flex items-center flex-col xl:flex-row  p-6  xl:right-10 ${
     showMenu
-      ? "  max-lg:bg-white rounded-lg  h-[50vh]  z-30 text-center top-0  justify-center items-center  right-0  max-lg:min-w-[100vw]"
-      : " sm:hidden max-sm:hidden   lg:flex max-lg:flex "
+      ? "  max-xl:bg-white rounded-lg  h-[50vh]  z-30 text-center top-0  justify-center items-center  right-0  max-xl:min-w-[100vw]"
+      : " sm:hidden max-sm:hidden   xl:flex max-xl:flex "
   }`;
-  const nav = `w-[100%] lg:max-w-[1400px] flex  flex-col justify-between lg:flex-row rounded-md z-20  ${style} ${showMenu? 'px-0': "px-6"} `
+  const nav = `w-[100%] xl:max-w-[1400px] flex  flex-col justify-between xl:flex-row rounded-md z-20  ${style} ${showMenu? 'px-0': "px-6"} `
   const h1 =
     "tabs letterSpacing  mx-4 hover:text-[#007E85] hover:border-b-2 hover:border-[#007E85] transition duration-500 cursor-pointer focus:text-[#007E85] focus:border-b-2";
   // fx
@@ -25,13 +25,15 @@ function Navbar({style}) {
     navigate("/ortho");
   }
   function goToBotox() {
-    navigate("/botox");
+    navigate("/botox");}
+  function goToLocation() {
+    navigate("/location");
   }
   return (
-    <div  data-aos='fade-down' className="nav flex  lg:justify-center w-[100%]">
+    <div  data-aos='fade-down' className="nav flex  xl:justify-center w-[100%]">
       <nav className={nav}  >
         <div
-          className="flex flex-row cursor-pointer mb-4 items-center md:mb-0 m mlg:mr-16"
+          className="flex flex-row cursor-pointer mb-4 items-center md:mb-0 m mxl:mr-16"
           onClick={() => {
             navigate("/");
           }}
@@ -53,18 +55,19 @@ function Navbar({style}) {
             Home
           </h1>
           <h1 className={h1} onClick={goToOrtho}>
-            Orthotist
+            Orthotist<span className={'text-theme1 '}>&</span>Equipments
           </h1>
           <h1 className={h1} onClick={goToBotox}>
             Botox
           </h1>
-          <h1 className={h1}>Equipments</h1>
-          <h1 className={h1}>Locations</h1>
+          {/* <h1 className={h1}>Equipments</h1> */}
+          <h1 className={h1}  onClick={goToLocation} >Locations</h1>
           <h1 className={h1}>HomeServices</h1>
+          <button className="bg-theme1   text-white w-[181px] h-[50px] rounded-[10px] hover:bg-transparent hover:text-theme1 hover:border-theme1 border-2 delay-75 duration-500  " >Contact Us</button>
         </div>
         <span
           onClick={() => setShowMenu((showMenu) => !showMenu)}
-          className=" lg:hidden max-lg:absolute right-[24px] z-40 bg-gradient-to-r from-[#007E85] to-[#6EAB36] text-white cursor-pointer p-2 rounded-lg "
+          className=" xl:hidden max-xl:absolute right-[24px] z-40 bg-gradient-to-r from-[#007E85] to-[#6EAB36] text-white cursor-pointer p-2 rounded-lg "
         >
           Menu
         </span>

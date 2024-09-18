@@ -32,7 +32,7 @@ function App() {
               animation='fade-down'
         />
         <Card1 />
-
+{/* 
         <BetweenText Heading='Meet our previous clint' 
         paragraph=' Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia
               aliquid at rem quibusdam! Quis distinctio iure corporis'
@@ -45,7 +45,7 @@ function App() {
         aliquid at rem quibusdam! Quis distinctio iure corporis iste'
         animation='fade-right'
         />
-        <Card3 />
+        <Card3 /> */}
         <SearchBar />{" "}
       </div>
       <Footer />

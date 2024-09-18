@@ -12,6 +12,7 @@ import BetweenText from "../components/BetweenText.jsx";
 import { useEffect } from "react";
 import Aos from "aos";
 import "aos/dist/aos.css";
+import CustomHero from "../components/CustomHero.jsx";
 function OrthoRoute() {
 
   useEffect(()=>{
@@ -57,6 +58,7 @@ function OrthoRoute() {
        
         <EquipmentsCard />
         <OrthoFindDoctor />
+        
         <OrthoHero />
         <BetweenText Heading='What Our Customer Say'
         paragraph='Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia

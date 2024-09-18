@@ -17,7 +17,7 @@ Aos.init({duration : 1000})
             <div
              data-aos='fade-up'
             className=' max-md:text-center t flex  flex-col justify-center ' >
-                <h3 className=' md:w-[40ch] mb-2  text-xl ' >Ask your doctor
+                <h3 className=' md:w-[40ch] lg:w-[20ch] mb-2  md:text-xl lg:text-3xl lg:customStyleBotoxCompoHead ' >Ask your doctor
                     if they have BOTOX®
                     samples available</h3>
                     <p data-aos='fade-up' className='text-sm text-centeer w-[40ch]' >*Only your physician can determine if BOTOX® is appropriate
