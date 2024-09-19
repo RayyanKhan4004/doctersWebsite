@@ -5,14 +5,14 @@ import OrthoFindDoctor from "../components/OrthoFindDoctor";
 import OrthoHero from "../components/OrthoHero";
 import SearchBar from "../components/SearchBar.jsx";
 import RatingCard from "../components/RatingCard.jsx";
-import { Equipments, ratingData } from "../data/allImpData.js";
+import {  ratingData } from "../Data/allImpData.js";
 import EquipmentsCard from "../components/EquipmentsCard.jsx";
 import Doctor2 from "../components/Doctor2.jsx";
 import BetweenText from "../components/BetweenText.jsx";
 import { useEffect } from "react";
 import Aos from "aos";
 import "aos/dist/aos.css";
-import CustomHero from "../components/CustomHero.jsx";
+
 function OrthoRoute() {
 
   useEffect(()=>{
