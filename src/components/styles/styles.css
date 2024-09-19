@@ -116,3 +116,10 @@ letter-spacing: 0.02em;
 text-align: left;
 
 }
+
+.active{
+  color: #007E85;
+  border-bottom: 2px solid #007E85
+    
+  
+}

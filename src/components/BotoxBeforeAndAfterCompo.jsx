@@ -28,7 +28,7 @@ Aos.init({duration : 1000})
         </div>
                 <img
                  data-aos='fade-down'
-                className='w-[1150px] transform scale-x-[-1] md:h-[647px] rounded-md' src={BotoxBeforeAndAfterImg} alt="BotoxBeforeAndAfterImg" />
+                className='w-[1150px] md:h-[647px] rounded-md' src={BotoxBeforeAndAfterImg} alt="BotoxBeforeAndAfterImg" />
             </div>
         </div>
     </div>

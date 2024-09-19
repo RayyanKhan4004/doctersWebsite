@@ -7,6 +7,8 @@ import {
 import OrthoRoute from './routes/OrthoRoute';
 import Botox from './routes/Botox';
 import Location from './routes/Location';
+// import HomeCoponent from './components/HomeCoponent';
+import HomeServices from './routes/HomeServics'
   const router = createBrowserRouter([
     {
       path: "/",
@@ -20,8 +22,11 @@ import Location from './routes/Location';
       element: <Botox/>
     },
     {
-      path : 'location',
+      path : '/location',
       element : <Location/>
+    },{
+      path : '/homeServices',
+      element : <HomeServices/>
     }
   ]);
   export default router

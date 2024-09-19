@@ -24,7 +24,7 @@ Aos.init({duration: 1000})
 
         {BotoxCard.map((curr ,i , all)=> {
             return <div 
-             data-aos='fade-up'
+             data-aos='fade-right'
             
             className='relative cursor-pointer hover:overflow-hidden rounded-xl ' > <img src={curr.img} alt={curr.txt} className='rounded-xl hover:scale-110  ' />  
             <div 
