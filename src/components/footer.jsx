@@ -22,7 +22,12 @@ export default function Footer() {
         {/* // */}
         <div className='w-[1200px] mt-[100px]  flex max-lg:flex-col max-lg:justify-center max-lg:items-center justify-between items-start ' > 
          <div>
-                <div className="text-white max-lg:mb-3 text-start">
+                <div 
+                
+                data-aos='fade-right'
+                
+                
+                className="text-white max-lg:mb-3 text-start">
            
                         <span className="text-3xl flex items-center font-bold">  <img className="-bottom-5 aspect-square h-14 w-14" src={Logo} alt="daf" /> Healthcare</span>
                        
@@ -32,10 +37,17 @@ export default function Footer() {
       </div>
 
       {/* //  // */}
-      <div className='text-white flex max-md:flex-col h-min gap-[104px] ' >
+      <div 
+      
+      
+      
+      className='text-white flex max-md:flex-col h-min gap-[104px] ' >
 
          
-        <div>
+        <div 
+        data-aos='fade-down'
+        
+        >
           <span className='footerheading ' >Products</span>
           <ul>
             <li className='lis mt-[40px]' >Features</li>
@@ -46,7 +58,9 @@ export default function Footer() {
           </ul>
         </div>
 
-        <div>
+        <div
+        data-aos='fade-up'
+        >
           <span className='footerheading' >Company</span>
           <ul>
           <li  className='lis mt-[40px]' >About</li>
@@ -59,7 +73,10 @@ export default function Footer() {
           </div>
 
 
-        <div>
+        <div
+        
+        data-aos='fade-down'
+        >
           <span className='footerheading' >Support</span>
           <ul className='' >
             <li className='lis mt-[40px]' >Getting Started</li>
@@ -71,7 +88,11 @@ export default function Footer() {
         </div>
 
 
-        <div>
+        <div 
+        
+        data-aos='fade-up'
+        
+        >
           <span className='footerheading' >Follow us</span>
           <ul>
             <li className='lis mt-[40px]' ><span> <img className='inline' src={Facebook} alt="" /></span> Facebook </li>

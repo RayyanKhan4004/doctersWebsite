@@ -16,6 +16,10 @@ import restingHandSplintForStoke from './resting hand splint for stoke.jpg'
 import advanceDynamicKneeSplint from './advance dynamic knee splint.jpg'
 import kneeBrace from './knee brace.jpg'
 import portableMiniPaddleExercise from './portable mini paddle exercise.jpg'
+import homeNursing from './Nur_Nursing_580x484 1.png'
+import associateNeurologist from './NeurospaBrain-117470-Make-Neurologist-Visit-Blogbanner1-1-2 1.png'
+import neuroMuscularPhysicalTherapist from './NeuromuscularTherapy 1.png'
+import muslePhysicalTherapy from './muslePhysicalTherepy.png'
 const AllImpinfo = [
   {
     id: 1,
@@ -211,4 +215,38 @@ const AllImpinfo = [
   "Effects of Stroke",
   "Rehabilitation for Stroke"
 ];
+
+export const serviceWeProvide = [{
+  name : 'Home Nursing',
+  text : 'Nursing Home provides specialized healthcare services. You can get your patients admitted in our facility where they will be looked after by highly trained staff 24 hours.',
+  img : homeNursing
+},{
+  name : 'Associate Neuorologist'
+  , text : 'Your first visit to the neurologist may last anywhere from 45 minutes to an hour. This is about how long it usually takes to review your history, discuss your symptoms, and conduct the neurological exam. ',
+  img : associateNeurologist
+},
+{
+  name : 'Neuro Muscular Physical Therapist'
+  , text : 'Neuromuscular therapy (NMT) is an integral form of treatment for men and women with neuromuscular disorders such as multiple sclerosis (MS) or Parkinson’s disease.'
+  , img : neuroMuscularPhysicalTherapist
+} ,{
+
+  name : 'Musculoskeletal Physical Therapist',
+  text :' MSK physiotherapy is a type of physical therapy that focuses on treating musculoskeletal conditions. These conditions include sprains and strains, fractures, back pain, neck pain, arthritis, joint replacements, etc.',
+  img : muslePhysicalTherapy
+},
+{
+  name : 'Psychiatrist',
+  text : 'A psychiatrist is a type of medical doctor (MD or DO) who specializes in diagnosing and treating mental, emotional, and behavioral disorders, including substance use disorders.' ,
+  img : muslePhysicalTherapy
+},{
+  name : 'Clinical psychologist'
+  , text : 'A clinical psychologist plays a vital role in assessing, diagnosing, and treating individuals with mental, emotional, and behavioral disorders. They offer professional support to help people navigate a wide range of challenges, from short-term personal issues to severe and chronic conditions' ,
+img : muslePhysicalTherapy
+}
+
+
+]
+
+
 export default AllImpinfo;
